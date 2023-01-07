@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+  background-color: blue;
+}
+
+header {
+  height: 180px;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  padding-top: 30px;
+}
+
+.FotoPerfil {
+   position: absolute;
+   width: 150px;
+   height: 150px;
+   top: 10px;
+   left: 10px;
+   border-radius: 15px;
+}
+
+h4{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 10px;
+}
+
+
+h1,h4,header {
+  background-image: radial-gradient(circle at 18.4% 52.76%, #b6fcff 0, #9aebf5 16.67%, #76d6e6 33.33%, #42bed4 50%, #00a6c3 66.67%, #0092b7 83.33%, #0082ae 100%);
+}
+
+

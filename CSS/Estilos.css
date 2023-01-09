@@ -2,27 +2,27 @@
   box-sizing: border-box;
   margin: 0px;
   border: 0px;
- 
 }
+
+/*HEADER PRINCIPIO*/
 
 header {
   height: 180px;
-  background: rgb(62,171,196);
-  background: linear-gradient(90deg, rgba(62,171,196,1) 12%, rgba(104,197,244,1) 80%, rgba(255,255,255,1) 100%);
   position: relative;
   width: 100%;
   border-bottom: black solid 2px;
- 
+  background: rgb(62,171,196);
+  background: linear-gradient(90deg, rgba(62,171,196,1) 12%, rgba(104,197,244,1) 80%, rgba(255,255,255,1) 100%);
 }
+
 
 h1{
   text-align: center;
   font-size: 60px;
   padding: 20px;
   font-family: Courier New;
-
+  background-color: transparent;
 }
-
 
 .FotoPerfil {
    position: absolute;
@@ -38,6 +38,7 @@ h4{
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
   padding: 20px;
+
 }
 
 .Facebook, .Instagram, .Twitter, .GitHub, .Linkedin{
@@ -77,29 +78,75 @@ h4{
   top: 130px;
   position: absolute;
   left: 94%;
-  background-color: transparent;
-}
-
-section{
-  background: rgb(62,171,196);
-  background: linear-gradient(90deg, rgba(62,171,196,1) 12%, rgba(104,197,244,1) 80%, rgba(255,255,255,1) 100%);
-  width: 100%;
-  height: 600px;
-  color: white;
-  margin: 0%;
-  display: flex;
+background-color: transparent;
   
 }
 
+/*HEADER FINAL*/
 
-.derecha{
-  width: 50%;
-  
-}
+/*ASIDE PRINCIPIO*/
 
 aside{
-  background: rgb(62,171,196);
-  background: linear-gradient(90deg, rgba(62,171,196,1) 12%, rgba(104,197,244,1) 80%, rgba(255,255,255,1) 100%);
-  display: flex;
+  width: 30%;
+  height: 600px;
+  background-color: #3eabc4;
+  float: left;
+  display: table;
+  border-right: black solid 2px;
 }
 
+.contactame{
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.idiomas{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.formacion{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.programas{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ aside dt{
+  padding-bottom: 3px;
+  border-bottom: black solid 1px ;
+  width: 150px;
+ }
+
+ li{
+  padding: 5px;
+  font-size: 20px;
+ }
+/*ASIDE FINAL*/
+
+/*SECTION PRINCIPIO*/
+
+section{
+  width: 70%;
+  height: 600px;
+  background-color: rgb(48, 243, 227);
+  display: table;
+}
+
+.perfil{
+  text-align: center;
+}
+
+/*SECTION FINAL*/
+
+/*FOOTER INICIO*/
+
+footer{
+  background-color: grey;
+  width: 100%;
+  height: 150px;
+}
+
+/*FOOTER FINAL*/

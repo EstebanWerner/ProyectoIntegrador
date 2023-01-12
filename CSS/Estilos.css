@@ -24,16 +24,17 @@ h1{
   background-color: transparent;
 }
 
+
 .FotoPerfil {
    position: absolute;
    width: 150px;
    height: 150px;
    top: 10px;
-   left: 10px;
+   left: 110px;
    border-radius: 15px;
 }
 
-h4{
+h2{
   text-align: center;
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
@@ -43,106 +44,133 @@ h4{
 
 .Facebook, .Instagram, .Twitter, .GitHub, .Linkedin{
   width: 30px;
-  height: 30px;  
+  height: 30px;
+  top: 130px;  
+  position: absolute;
+  background-color: transparent;
 }
 
 .Facebook {
-  top: 130px;
-  position: absolute;
   left: 97%;
-  background-color: transparent;
 }
 
 .GitHub{
-  top: 130px;
-  position: absolute;
   left: 91%;
-  background-color: transparent;
 }
 
 .Twitter{
-  top: 130px;
-  position: absolute;
-  left: 88%;
-  background-color: transparent;
+ left: 88%;
 }
 
 .Linkedin{
-  top: 130px;
-  position: absolute;
   left: 85%;
-  background-color: transparent;
 }
 
 .Instagram{
-  top: 130px;
-  position: absolute;
-  left: 94%;
-background-color: transparent;
-  
+  left: 94%; 
 }
 
 /*HEADER FINAL*/
-
 /*ASIDE PRINCIPIO*/
 
 aside{
   width: 30%;
-  height: 1000px;
+  height: 700px;
   background-color: #3eabc4;
   float: left;
   display: table;
+  justify-content: center;
+  align-items: center;
   border-right: black solid 2px;
   border-bottom: black solid 2px;
 }
 
 .contactame{
- padding-top: 20px;
+ padding-top: 40px;
  padding-bottom: 20px;
 }
 
-.idiomas{
+.idiomas, .formacion, .programas{
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.formacion{
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.programas{
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
  aside dt{
   padding-bottom: 3px;
   border-bottom: black solid 1px ;
-  width: 150px;
+  width: 300px;
+
  }
 
  li{
   padding: 5px;
   font-size: 20px;
  }
-/*ASIDE FINAL*/
+ 
+.progress-aleman, .progress-ingles{
+  width: 200px;
+  height: 11px;
+  color: white;
+  border: black solid 1px;
+  font-size: 10px;
+}
 
+.progress-ingles{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 66%, rgba(249,249,249,1) 66%);
+  text-align: center;
+}
+
+.progress-aleman{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(249,249,249,1) 50%);
+}
+
+.progress-aleman p{
+  margin-left: 45px;
+}
+
+.idiomas li{
+  padding-bottom: 5px;
+}
+/*ASIDE FINAL*/
 /*SECTION PRINCIPIO*/
 
 section{
   width: 70%;
-  height: 1000px;
-  background-color: rgb(48, 243, 227);
+  height: 700px;
+  background-color: #3eabc4;
   display: table;
   border-bottom: black solid 2px;
-}
-
-.perfil{
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-/*SECTION FINAL*/
+h3, h4, h5{
+  padding-bottom: 20px;
+}
 
+.perfil, .exp-laboral{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.exp-laboral li{
+  text-align: left;
+ }
+
+ .exp-laboral dt{
+   width: 250px;
+   text-align: left;
+   font-size: 20px;
+   padding-bottom: 20px;
+ }
+ 
+.habilidades{
+  font-size: 20px;
+}
+/*SECTION FINAL*/
 /*FOOTER INICIO*/
 
 footer{
@@ -154,7 +182,7 @@ footer{
 			background: linear-gradient(45deg,#1ccbc3, #1c9bcb, #28b5b1,#ffffff);
 			background-size: 400% 400%;
 			position: relative;
-			animation: cambiar 10s ease-in-out infinite;
+			animation: cambiar 5s ease-in-out infinite;
 }
 
 @keyframes cambiar {

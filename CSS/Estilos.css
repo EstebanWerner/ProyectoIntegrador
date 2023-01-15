@@ -3,9 +3,7 @@
   margin: 0px;
   border: 0px;
 }
-
-/*HEADER PRINCIPIO*/
-
+/*////////////////////////////////////////////////////*/
 header {
   height: 180px;
   position: relative;
@@ -27,11 +25,12 @@ h1{
 
 .FotoPerfil {
    position: absolute;
-   width: 150px;
-   height: 150px;
-   top: 10px;
+   width: 170px;
+   height: 170px;
+   top: 5px;
    left: 110px;
    border-radius: 15px;
+   border: solid black 2px;
 }
 
 h2{
@@ -49,7 +48,7 @@ h2{
   position: absolute;
   background-color: transparent;
 }
-
+     
 .Facebook {
   left: 97%;
 }
@@ -69,10 +68,7 @@ h2{
 .Instagram{
   left: 94%; 
 }
-
-/*HEADER FINAL*/
-/*ASIDE PRINCIPIO*/
-
+/*/////////////////////////////////////////////*/
 aside{
   width: 30%;
   height: 700px;
@@ -133,25 +129,33 @@ aside{
 .idiomas li{
   padding-bottom: 5px;
 }
-/*ASIDE FINAL*/
-/*SECTION PRINCIPIO*/
-
+/*/////////////////////////////////////////*/
 section{
   width: 70%;
-  height: 700px;
-  background-color: #3eabc4;
+  height: 714px;
+  background-color:white;
   display: table;
   border-bottom: black solid 2px;
   align-items: center;
   justify-content: center;
   text-align: center;
+  display: grid;
 }
 
 h3, h4, h5{
   padding-bottom: 20px;
 }
 
-.perfil, .exp-laboral{
+h3{
+  font-size: 30px;
+}
+
+.perfil{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.exp-laboral{
   padding: 20px;
   font-size: 20px;
 }
@@ -170,9 +174,11 @@ h3, h4, h5{
 .habilidades{
   font-size: 20px;
 }
-/*SECTION FINAL*/
-/*FOOTER INICIO*/
+ .my-progress-bar{
+  align-items: center;
+ }
 
+/*////////////////////////////////////*/
 footer{
       justify-content: center;
       display: flex;
@@ -193,5 +199,6 @@ footer{
 
 .copy{
   font-family: inherit;
+  text-align: center;
 }
-/*FOOTER FINAL*/
+/*///////////////////////////////////////*/

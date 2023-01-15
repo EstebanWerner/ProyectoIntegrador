@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css"  rel="stylesheet" href="CSS/Estilos.css">
     <link rel="icon" type="image/icon" href="IMG/Favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <title>Mi Curriculum Vitae</title>
 </head>
 <body>
@@ -14,29 +15,44 @@
         <img src="IMG/FotoPerfil.jpeg" alt="ImagenPefil" class="FotoPerfil">
         <h2>Ingeniero Electrico</h2>
         <div class="redes">
-             <ul>
-                 <a href="https://www.facebook.com/profile.php?id=100053507359281" target="_blank">
-                 <img class="Facebook" src="IMG/Facebook.webp" alt="Icono de Facebook">
-                 </a>
-                 <a href="https://github.com/EstebanWerner/ProyectoIntegrador" target="_blank">
-                 <img class="GitHub" src="IMG/GitHub.png" alt="Icono GitHub">
-                 </a>
-                 <a href="https://www.instagram.com/?hl=es-la" target="_blank">
-                 <img class="Instagram" src="IMG/Instagram.webp" alt="Icono Instagram">
-                 </a>
-                 <a href="https://twitter.com/EstebanWernerr" target="_blank">
-                 <img class="Twitter" src="IMG/Twitter.png" alt="Icono Twitter">
-                 </a>
-                 <a href="https://www.linkedin.com/in/esteban-werner-154b4922a/" target="_blank">
-                 <img class="Linkedin"  src="IMG/Linkedin.png" alt="Icono Linkedin">
-                 </a>
+             <ul style="list-style: none;">
+                <li>
+                     <a href="https://www.facebook.com/profile.php?id=100053507359281" target="_blank">
+                         <img class="Facebook" src="IMG/Facebook.webp" alt="Icono de Facebook">
+                     </a>
+                </li>
+                <li>
+                     <a href="https://github.com/EstebanWerner/ProyectoIntegrador" target="_blank">
+                         <img class="GitHub" src="IMG/GitHub.png" alt="Icono GitHub">
+                     </a>
+                </li>
+                <li>
+                     <a href="https://www.instagram.com/?hl=es-la" target="_blank">
+                         <img class="Instagram" src="IMG/Instagram.webp" alt="Icono Instagram">
+                     </a>
+                </li>
+                <li>
+                     <a href="https://twitter.com/EstebanWernerr" target="_blank">
+                         <img class="Twitter" src="IMG/Twitter.png" alt="Icono Twitter">
+                     </a>
+                </li>
+                <li>
+                     <a href="https://www.linkedin.com/in/esteban-werner-154b4922a/" target="_blank">
+                         <img class="Linkedin"  src="IMG/Linkedin.png" alt="Icono Linkedin">
+                     </a>
+                </li>
              </ul>
         </div>
-    </header>
-    <aside>
+     </header>
+     <aside>
         <div class="contactame">
             <ul>
                 <dt>CONTACTO</dt>
+                <li>
+                    <a href="https://www.google.com.ar/maps/place/Alcorta,+Santa+Fe/@-33.5418111,-61.132597,18.75z/data=!4m5!3m4!1s0x95b7f005032038d3:0xa1f65d57826e3a04!8m2!3d-33.5389688!4d-61.124381" target="_blank">
+                         <span>Mi ubicacion</span>
+                    </a>
+                 </li>
                 <li>3465 667746</li>
                 <li>estebanwerner21@gmail.com</li>
             </ul>
@@ -45,13 +61,11 @@
             <ul>
                 <dt>IDIOMAS</dt>
                 <li>Idioma nativo: Español</li>
-                
                 <li>Ingles:</li>
                 <dd>Intermedio Avanzado B2</dd>
                 <div class="progress-ingles">66%</div>
-                
                 <li>Aleman:</li>
-                <dd>Intermedio          B1</dd>
+                <dd>Intermedio B1</dd>
                 <div class="progress-aleman"><p>50%</p></div>
             </ul>
         </div>
@@ -96,13 +110,25 @@
         <div class="habilidades">
             <ul style="list-style: none;">
                 <h5>Mis Habilidades</h5>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
+                <li>
+                    <div class="my-progress-bar">
+                    <script src="JS/plugin.js"></script>
+                    <script src="JS/Progress-bar"></script>
+                    
+                    </div>
+                </li>
+             </ul>
+        </div>  
     </section>
     <footer>
-        <p class="copy">© Copyright Esteban Werner 2023</p>
+         <ul class="copy" style="list-style: none;"> 
+             <li> 
+                 <i>© Copyright Esteban Werner 2023</i>
+             </li> 
+             <li>
+                <i>Sic-Parvis-Magna</i>
+             </li>  
+         </ul>
     </footer>
 </body>
 </html>

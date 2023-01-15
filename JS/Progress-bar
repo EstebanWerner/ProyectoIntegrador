@@ -1,0 +1,11 @@
+$(document).ready(function(){
+     $(".my-progress-bar").circularProgress({
+        line_width: 5,
+        color: "#000000",
+        starting_position: 0,
+        text: "hola",
+        percent: 70,
+        percentage: true,
+        counter_clockwise: false,
+  }).circularProgress("animante", 70, 7000);
+})

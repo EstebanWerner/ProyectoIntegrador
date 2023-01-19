@@ -7,6 +7,8 @@
     <link type="text/css"  rel="stylesheet" href="CSS/Estilos.css">
     <link rel="icon" type="image/icon" href="IMG/Favicon.ico">
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
     <title>Mi Curriculum Vitae</title>
 </head>
 <body>
@@ -27,7 +29,7 @@
     <a href="https://www.linkedin.com/in/esteban-werner-154b4922a/" target="_blank">
     <img class="Linkedin"  src="IMG/Linkedin.png" alt="Icono Linkedin">
     </a>
-    
+   
 </nav>
     <header>
         <h1>Esteban Werner</h1>
@@ -42,7 +44,7 @@
             <ul>
                 <dt>CONTACTO</dt>
                 <li>
-                    <a href="https://www.google.com.ar/maps/place/Alcorta,+Santa+Fe/@-33.5418111,-61.132597,18.75z/data=!4m5!3m4!1s0x95b7f005032038d3:0xa1f65d57826e3a04!8m2!3d-33.5389688!4d-61.124381" target="_blank">
+                    <a style="text-decoration:none" href="https://www.google.com.ar/maps/place/Alcorta,+Santa+Fe/@-33.5418111,-61.132597,18.75z/data=!4m5!3m4!1s0x95b7f005032038d3:0xa1f65d57826e3a04!8m2!3d-33.5389688!4d-61.124381" target="_blank">
                          <span>Mi ubicacion</span>
                     </a>
                  </li>
@@ -101,13 +103,63 @@
              </ul>
         </div>
         <div class="habilidades">
-            <ul style="list-style: none;">
+            <ul>
                 <h5>Mis Habilidades</h5>
+                <div class="SkillsPps">
+                <div class="wrapper">
+                    <div class="card">
+                      <div class="circle">
+                        <div class="bar"></div>
+                        <div class="box"><span></span></div>
+                      </div>
+                      <div class="text">HTML & CSS</div>
+                    </div>
+                    <div class="card js">
+                      <div class="circle">
+                        <div class="bar"></div>
+                        <div class="box"><span></span></div>
+                      </div>
+                      <div class="text">JavaScript</div>
+                    </div>
+                    <div class="card react">
+                      <div class="circle">
+                        <div class="bar"></div>
+                        <div class="box"><span></span></div>
+                      </div>
+                      <div class="text">React JS</div>
+                    </div>
+                  </div>
+                  <div class="wrapper">
+                    <div class="card">
+                      <div class="circle">
+                        <div class="bar"></div>
+                        <div class="box"><span></span></div>
+                      </div>
+                      <div class="text">HTML & CSS</div>
+                    </div>
+                    <div class="card js">
+                      <div class="circle">
+                        <div class="bar"></div>
+                        <div class="box"><span></span></div>
+                      </div>
+                      <div class="text">JavaScript</div>
+                    </div>
+                    <div class="card react">
+                      <div class="circle">
+                        <div class="bar"></div>
+                        <div class="box"><span></span></div>
+                      </div>
+                      <div class="text">React JS</div>
+                    </div>
+                  </div>
+              
+                  <script src="JS/ProgresoCircular.js"></script>
              </ul>
-        </div>  
+        </div> 
+    </div>
     </section>
     <footer>
-         <ul class="copy" style="list-style: none;"> 
+         <ul class="copy"> 
              <li> 
                  <i>© Copyright Esteban Werner 2023</i>
              </li> 

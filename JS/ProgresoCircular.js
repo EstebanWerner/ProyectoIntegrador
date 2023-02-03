@@ -8,22 +8,22 @@ $(".circle .bar").circleProgress(options).on('circle-animation-progress',
 function(event, progress, stepValue){
   $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
 });
-$(".SkillsPps .bar").circleProgress({
+$(".skill1 .bar").circleProgress({
   value: 0.90
 });
-$(".Comunicacionverbal .bar").circleProgress({
+$(".skill2 .bar").circleProgress({
   value: 0.70
 });
-$(".Liderazgo .bar").circleProgress({
+$(".skill3 .bar").circleProgress({
   value: 0.85
 });
-$(".Resoluciondeproglemas .bar").circleProgress({
+$(".skill4 .bar").circleProgress({
   value: 0.95
 });
-$(".DiseñoCircuitos .bar").circleProgress({
+$(".skill5 .bar").circleProgress({
   value: 0.99
 });
-$(".ManejoDeProgramas .bar").circleProgress({
+$(".skill6 .bar").circleProgress({
   value: 0.95
 });
 

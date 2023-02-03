@@ -1,1 +1,3 @@
-Mi fuerte no es el diseño sorry si da asco de solo mirarlo ;(
+PROYECTO FINAL INTEGRADOR 
+
+La informacion citada en este proyecto es totalmente ficticia.

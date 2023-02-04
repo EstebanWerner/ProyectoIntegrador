@@ -1,362 +1,303 @@
-*{
-  box-sizing: border-box;
-  margin: 0px;
-  border: 0px;
- 
+*{box-sizing:border-box;
+  margin:0;
+  border:0
 }
-header, section, aside{
-  background-color: #706c6c;
-  color: white;
-  border-bottom: black solid 3px;
+header,section,aside{
+  background-color:#706c6c;
+  color:#fff;
+  border-bottom:#000 solid 3px
 }
-/*////////////////////////////////////////////////////*/
-header {
-  min-height: 190px;
-  width: 70%;
-  position: relative;
-  float: right;
-  border-top: black solid 3px;
-  text-align: center;
+h2,aside li,h5,.perfil,.exp-laboral,.habilidades,.exp-laboral dt,.circle .box span{
+  font-size:20px
+}
+header{
+  min-height:190px
+  ;width:70%;
+  position:relative;
+  float:right;
+  border-top:#000 solid 3px;
+  text-align:center
 }
 h1{
-  font-size: 50px;
-  padding: 10px;
-  font-family: Courier New;
+  font-size:50px;
+  padding:10px;
+  font-family:Courier New
 }
 h2{
-  font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
-  padding: 20px;
+  font-family:Courier New
 }
-/*/////////////////////////////////////////////*/
 nav{
-  position: relative;
-  justify-content: center;
-  display: flex;
-  width: 100%;
-  height: 40px;
+  position:relative;
+  justify-content:center;
+  display:flex;
+  width:100%;
+  height:40px
 }
-.Facebook, .Instagram, .Linkedin, .Twitter, .GitHub{
-  width: 30px;
-  height: 30px;
-  background-color: transparent;
-  padding: 3px;
+.Facebook,.Instagram,.Linkedin,.Twitter,.GitHub{
+  width:30px;
+  height:30px;
+  padding:3px
 }
-nav ul, nav li, nav, nav a{
-  background-color: #3d3b3b;
+nav ul,nav li,nav,nav a{
+  background-color:#3d3b3b
 }
 nav ul{
-  margin-top: 4px;
+  margin-top:4px
 }
-nav li {
-     display:inline;
-     padding-left:3px;
-     padding-right:3px;
+nav li{
+  display:inline;
+  padding-left:3px;
+  padding-right:3px
 }
 nav a{
-  color: #3d3b3b;
+  color:#3d3b3b
 }
-/*/////////////////////////////////////////////*/
 aside{
-  width: 30%;
-  height: 1069px;
-  float: left;
-  display: table-column;
-  border-right: black solid 3px;
-  border-top: black solid 3px;
-  position: relative;
-  margin-top: none;
+  width:30%;
+  height:1069px;
+  float:left;
+  display:table-column;
+  border-right:#000 solid 3px;
+  border-top:#000 solid 3px;
+  position:relative
 }
-.FotoPerfil {
-  width: 100%; 
-  height: auto;
-  border: solid black 2px;
+.FotoPerfil{
+  width:100%;
+  height:auto;
+  border:solid #000 2px
 }
 .contactame ul{
- padding-top: 10px;
- padding-bottom: 10px;
- list-style: none;
+  padding-top:10px;
+  padding-bottom:10px
 }
 span{
-  color: white;
-  font-size: 20px;
+  color:#fff
 }
-
-.idiomas, .formacion, .programas{
-  padding-top: 10px;
-  padding-bottom: 10px;
+.idiomas,.formacion,.programas{
+  padding-top:10px;
+  padding-bottom:10px
 }
-
 aside dt{
-  padding-bottom: 3px;
-  border-bottom: black solid 2px ;
-  width: 150px;
+  padding-bottom:3px;
+  border-bottom:#000 solid 2px;
+  width:150px
 }
-
-.Ubicacion::before, .Contact::before, .email::before, .item::before{
-  content: url();
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-right: 5px;
-  background-color: transparent;
-}  
+.Ubicacion::before,.Contact::before,.email::before,.item::before{
+  content:url();
+  display:inline-block;
+  width:20px;
+  height:20px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  margin-right:5px;
+  background-color:transparent
+}
 .item::before{
-  background-image: url(../IMG/Flecha.png);
+  background-image:url(../IMG/Flecha.png)
 }
 .Ubicacion::before{
-  background-image: url(../IMG/LocationItem.png);
+  background-image:url(../IMG/LocationItem.png)
 }
 .Contact::before{
-  background-image: url(../IMG/PhoneItem.png);
+  background-image:url(../IMG/PhoneItem.png)
 }
 .email::before{
-  background-image: url(../IMG/CorreoItem.png);
+  background-image:url(../IMG/CorreoItem.png)
 }
-
 aside li{
-  padding: 5px;
-  font-size: 20px;
-  list-style: none;
- }
- 
-.progress-aleman, .progress-ingles{
-  max-width: 200px;
-  height: 11px;
-  color: white;
-  border: black solid 1px;
-  font-size: 10px;
-  margin-left: 40px;
+  padding:5px;
+  list-style:none
 }
-
+.progress-aleman,.progress-ingles{
+  max-width:200px;
+  height:11px;
+  color:#fff;
+  border:#000 solid 1px;
+  font-size:10px;
+  margin-left:40px
+}
 .progress-ingles{
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 66%, rgba(249,249,249,1) 66%);
-  text-align: center;
+  background:#000;
+  background:linear-gradient(90deg,rgba(0,0,0,1) 66%,rgba(249,249,249,1) 66%);
+  text-align:center
 }
-
 .progress-aleman{
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(249,249,249,1) 50%);
+  background:#000;
+  background:linear-gradient(90deg,rgba(0,0,0,1) 50%,rgba(249,249,249,1) 50%)
 }
-
-.progress-aleman p{
-  margin-left: 45px;
+.progress-aleman p,.level{
+  margin-left:45px
 }
-.level{
-  margin-left: 40px;
-}
-
-/*/////////////////////////////////////////*/
 section{
-  width: 70%;
-  height: 879px;
-  display: table;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  width:70%;
+  height:879px;
+  display:table;
+  align-items:center;
+  justify-content:center;
+  text-align:center
 }
-
-h3, h4{
-  padding-bottom: 20px;
+h3,h4,h5,.exp-laboral dt{
+  padding-bottom:20px
 }
-
 h5{
-  padding-bottom: 20px;
-  font-size: 20px;
-  margin: 0px none;
+  margin:0 none
 }
-
-h3{
-  font-size: 30px;
+.exp-laboral li,.exp-laboral dt{
+  text-align:left
 }
-
-.perfil{
-  padding: 20px;
-  font-size: 20px;
+.exp-laboral dt{
+  width:250px
 }
-
-.exp-laboral{
-  padding: 20px;
-  font-size: 20px;
-}
-
-.exp-laboral li{
-  text-align: left;
- }
-
- .exp-laboral dt{
-   width: 250px;
-   text-align: left;
-   font-size: 20px;
-   padding-bottom: 20px;
- }
-
 li section{
-  padding-bottom: 10px;
- }
- 
-.habilidades{
-  font-size: 20px;
-  justify-content: center;
-  display: table;
-  margin: 0px auto;
+  padding-bottom:10px
 }
-
+.habilidades{
+  font-size:20px;
+  justify-content:center;
+  display:table;
+  margin:0 auto
+}
 ul{
-  padding-left: 10px;
+  padding-left:10px
 }
 .wrapper{
-  width: 500px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  width:500px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between
 }
 .wrapper .card{
-  background: black;
-  width: 130px;
-  height: 160px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+  background:#000;
+  width:130px;
+  height:160px;
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  flex-direction:column;
+  box-shadow:0 10px 15px rgba(0,0,0,.1);
+  margin-bottom:20px
 }
 .wrapper .card .circle{
-  position: relative;
-  height: 75px;
-  width: 75px;
-  border-radius: 50%;
-  cursor: default;
+  position:relative;
+  height:75px;
+  width:75px;
+  border-radius:50%;
+  cursor:default
 }
-.card .circle .box,
-.card .circle .box span{
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.card .circle .box,.card .circle .box span{
+  position:absolute;
+  top:50%;
+  left:50%
 }
 .card .circle .box{
-  height: 100%;
-  width: 100%;
-  background: #fff;
-  border-radius: 50%;
-  transform: translate(-50%, -50%) scale(0.8);
-  transition: all 0.2s;
+  height:100%;
+  width:100%;
+  background:#fff;
+  border-radius:50%;
+  transform:translate(-50%,-50%) scale(.8);transition:all .2s
 }
 .card .circle:hover .box{
-  transform: translate(-50%, -50%) scale(0.91);
+  transform:translate(-50%,-50%) scale(.91)
 }
-.card .circle .box span,
-.wrapper .card .text{
-  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.card .circle .box span,.wrapper .card .text{
+  background:-webkit-linear-gradient(left,#a445b2,#fa4299);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent
 }
 .circle .box span{
-  font-size: 20px;
-  font-family: sans-serif;
-  font-weight: 600;
-  transform: translate(-45%, -45%);
-  transition: all 0.1s;
+  font-family:sans-serif;
+  font-weight:600;
+  transform:translate(-45%,-45%);
+  transition:all .1s
 }
-.card .circle:hover .box span{
-  transform: translate(-45%, -45%) scale(1.09);
-}
-.card .text{
-  font-size: 20px;
-  font-weight: 600;
-}
-
-div .card react{
-  padding: 20px;
-}
-li{
-  list-style: none;
-}
-
-/*////////////////////////////////////*/
-footer{
-      width: 100%;
-      height: 100px;
-      color: #50d9e2;
-      justify-content: center;
-      display: flex;
-      align-items: center;
-			background: linear-gradient(45deg, #2d2b2b,#2d2b2b,#918c8c,#918c8c);
-			background-size: 400% 400%;
-			position: relative;
-			animation: cambiar 5s ease-in-out infinite;
-    }
-
-@keyframes cambiar {
-  0%{background-position: 0 50%;}
-	50%{background-position: 100% 50%;}
-	100%{background-position: 0 50%;}
-}
-.copy{
-  font-family: inherit;
-  text-align: center;
-}
-/*//////////////////////////////////////*/
-@media all and (max-width:768px){
-  header{
-    flex-direction: column;
-    min-width: none;
-    float: left;
+  .card .circle:hover .box span{
+      transform:translate(-45%,-45%) scale(1.09)
   }
- h1{
-  font-size: 40px;
-  padding: 20px;
- }
-p {
-  width: auto;
-}
- h2{
-  padding: 20px;
- }
-aside, section, nav, header{
-  width: 100%;
-}
-aside, section{
-  height: auto;
-}
-nav{
-  float: right;
-  display: flex;
-}
-aside ul, aside dt{
-  padding-left: 20px;
-  padding: 5px;
-}
-.habilidades{
-  justify-content: center;
-  align-items: center;
-  min-width: 280px;
-}
-.wrapper{
-width: 300px;
-display: table;
-padding-bottom: 0px;
-}
-.wrapper .card{
-width: 200px;
-margin: 0px auto;
-margin-bottom: 20px;
-}
-.pensamientocritico{
-  padding-bottom: 10px;
-}
-.email{
-  font-size: 20px;
-}
-}
-@media all and (max-width:872px){
-  .email{
-    font-size: 15px;
+  .card .text{
+      font-size:20px;
+      font-weight:600
   }
+  div .card react,.perfil,.exp-laboral,h2{
+      padding:20px
+  }
+  footer li,.wrapper{
+      list-style:none
+  }
+  footer{
+      width:100%;
+      height:100px;
+      color:#50d9e2;
+      justify-content:center;
+      display:flex;
+      align-items:center;
+      background:linear-gradient(45deg,#2d2b2b,#2d2b2b,#918c8c,#918c8c);
+      background-size:400% 400%;
+      position:relative;
+      animation:cambiar 5s ease-in-out infinite
+  }
+  @keyframes cambiar{
+      0%{background-position:0 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0 50%}
+  }
+  .copy{
+      font-family:inherit;
+      text-align:center
+  }
+  @media all and (max-width:768px){
+      header{
+          flex-direction:column;
+          min-width:none;
+          float:left
+      }
+      h1{
+          font-size:40px
+      }
+      p{
+          width:auto
+      }
+      h1,h2{
+          padding:20px
+      }
+      aside,section,nav,header{
+          width:100%
+      }
+      aside,section{
+           height:auto
+      }
+      nav{
+           float:right;
+           display:flex
+      }
+      aside ul,aside dt{
+           padding-left:20px;
+           padding:5px
+      }
+      .habilidades{
+           justify-content:center;
+           align-items:center;
+           min-width:280px
+      }
+      .wrapper{
+           width:300px;
+           display:table;
+           padding-bottom:0
+      }
+      .wrapper .card{
+           width:200px;
+           margin:0 auto;
+           margin-bottom:20px
+      }
+      .pensamientocritico{
+           padding-bottom:10px
+      }
+      .email{
+           font-size:20px
+      }  
 }
+  @media all and (max-width:872px){
+      .email{
+          font-size:15px
+      }
+  }
